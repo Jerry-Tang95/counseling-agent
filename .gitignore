@@ -43,4 +43,9 @@ yarn-error.log*
 # local-only analysis artifacts (may contain private conversation data)
 /qa/diana-*
 /qa/Diana-*
+/qa/analyze_diana.py
+/qa/compare_style.py
+/qa/excerpt.py
+/qa/extract_user_msgs.py
+/qa/parse_diana.py
 /screenshots/
