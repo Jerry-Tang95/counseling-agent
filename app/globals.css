@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --canvas: #edeff0;
+  --paper: #fbfaf7;
+  --ink: #17312e;
+  --jade: #3d8874;
+  --jade-deep: #2f6e5e;
+  --bubble-user: #bfe8cd;
+  --bubble-ai: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--ink);
+  background: var(--paper);
+  font-family:
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC",
+    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(61, 136, 116, 0.22);
+}
+
+/* ---------- 页面背景 ---------- */
+.paper-bg {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(165, 212, 194, 0.22), transparent 34%),
+    radial-gradient(circle at 88% 12%, rgba(232, 213, 184, 0.2), transparent 30%),
+    linear-gradient(180deg, #fbfaf7 0%, #f6f4ee 100%);
+}
+
+.chat-canvas {
+  background-color: #edeff0;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(23, 49, 46, 0.045) 1px, transparent 0);
+  background-size: 18px 18px;
+}
+
+/* ---------- 微信式气泡 ---------- */
+.bubble-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+}
+
+.bubble-row.user {
+  flex-direction: row-reverse;
+}
+
+.bubble {
+  position: relative;
+  max-width: min(74%, 540px);
+  border-radius: 8px;
+  padding: 10px 13px;
+  font-size: 15px;
+  line-height: 1.75;
+  word-break: break-word;
+  white-space: pre-wrap;
+  box-shadow: 0 1px 2px rgba(23, 49, 46, 0.06);
+}
+
+.bubble.user {
+  background: var(--bubble-user);
+  color: #15352a;
+  border-top-right-radius: 3px;
+}
+
+.bubble.ai {
+  background: var(--bubble-ai);
+  color: #1e3734;
+  border-top-left-radius: 3px;
+}
+
+.bubble.user::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  right: -5px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid var(--bubble-user);
+}
+
+.bubble.ai::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -5px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 6px solid var(--bubble-ai);
+}
+
+.bubble + .bubble {
+  margin-top: 8px;
+}
+
+.bubble.ai p,
+.bubble.user p {
+  margin: 0;
+}
+
+.bubble.ai p + p,
+.bubble.user p + p {
+  margin-top: 8px;
+}
+
+.bubble.ai ul,
+.bubble.user ul,
+.bubble.ai ol,
+.bubble.user ol {
+  margin: 6px 0;
+  padding-left: 18px;
+}
+
+.bubble.ai li,
+.bubble.user li {
+  margin: 3px 0;
+}
+
+.bubble.ai strong,
+.bubble.user strong {
+  font-weight: 600;
+}
+
+.bubble.ai blockquote,
+.bubble.user blockquote {
+  margin: 8px 0;
+  padding-left: 10px;
+  border-left: 2px solid rgba(61, 136, 116, 0.35);
+  color: #516b67;
+}
+
+/* ---------- 滚动条 ---------- */
+.thin-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(61, 136, 116, 0.28) transparent;
+}
+
+.thin-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(61, 136, 116, 0.26);
+  border-radius: 999px;
+}
+
+.thin-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* ---------- 通用 ---------- */
+.text-balance {
+  text-wrap: balance;
+}
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.focus-ring {
+  outline: none;
+}
+
+.focus-ring:focus-visible {
+  box-shadow: 0 0 0 3px rgba(61, 136, 116, 0.22);
+}
+
+/* 流式输出光标 */
+.stream-cursor::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  margin-left: 2px;
+  background: #3d8874;
+  vertical-align: -0.12em;
+  animation: blink 0.9s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* 隐藏数字输入框箭头 */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

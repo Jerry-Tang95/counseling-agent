@@ -1,0 +1,110 @@
+// 心理咨询Agent — MVP 数据模型
+// 本地开发使用 SQLite；上线可切换 PostgreSQL，schema 不使用 SQLite 专有语法。
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String       @id @default(cuid())
+  avatarId       String       @default("user-01")
+  ageRange       String?
+  consentVersion String
+  memoryEnabled  Boolean      @default(false)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+  sessions       Session[]
+  memories       MemoryItem[]
+}
+
+model Session {
+  id             String         @id @default(cuid())
+  userId         String
+  user           User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title          String?
+  status         String         @default("active") // active | completed | crisis | deleted
+  stage          String         @default("intake") // intake | explore | reframe | action | summary | crisis
+  riskLevel      Int            @default(0)
+  rollingSummary String? // 加密后的滚动摘要
+  startedAt      DateTime       @default(now())
+  endedAt        DateTime?
+  messages       Message[]
+  summary        SessionSummary?
+  memories       MemoryItem[]
+}
+
+model Message {
+  id            String   @id @default(cuid())
+  sessionId     String
+  session       Session  @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  role          String // user | assistant | system
+  contentCipher String
+  safetyFlags   String? // JSON
+  memoryRefs    String? // JSON: 参考的 MemoryItem id
+  createdAt     DateTime @default(now())
+
+  @@index([sessionId, createdAt])
+}
+
+model SessionSummary {
+  id         String   @id @default(cuid())
+  sessionId  String   @unique
+  session    Session  @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  presenting String
+  patterns   String
+  strengths  String
+  goals      String
+  actionPlan String
+  riskLevel  Int      @default(0)
+  createdAt  DateTime @default(now())
+}
+
+model MemoryItem {
+  id              String   @id @default(cuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  category        String // goal | value | pattern | relationship | coping | progress | preference
+  contentCipher   String
+  confidence      Float    @default(0.8)
+  importance      Int      @default(3)
+  sensitivity     String   @default("normal") // normal | sensitive
+  sourceType      String   @default("explicit") // explicit | inferred | summary
+  occurrences     Int      @default(1)
+  lastConfirmedAt DateTime?
+  expiresAt       DateTime?
+  sourceSessionId String?
+  session         Session? @relation(fields: [sourceSessionId], references: [id], onDelete: SetNull)
+  status          String   @default("active") // active | archived
+  archivedReason  String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  lastUsedAt      DateTime?
+
+  @@index([userId, status, category])
+}
+
+
+model RiskEvent {
+  id          String   @id @default(cuid())
+  sessionId   String
+  level       Int
+  type        String
+  actionTaken String
+  createdAt   DateTime @default(now())
+
+  @@index([sessionId, createdAt])
+}
+
+model Feedback {
+  id        String   @id @default(cuid())
+  sessionId String
+  helpful   Int
+  safety    Int
+  comment   String?
+  createdAt DateTime @default(now())
+}

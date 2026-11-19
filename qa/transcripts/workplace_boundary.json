@@ -1,0 +1,421 @@
+{
+  "id": "workplace_boundary",
+  "title": "职场边界与讨好模式（深聊，含总结与记忆）",
+  "sessionId": "cmwmvw5mu0002upm8nhvq421f",
+  "elapsedMs": 41051,
+  "turns": [
+    {
+      "user": "最近工作压力特别大，我总觉得自己做得不够好，同事让我帮忙我也不好意思拒绝。",
+      "reply": "听起来工作压力让你感到很有负担，特别是当觉得自己做得不够好，又很难拒绝同事的请求时。这种感觉很消耗人，对吗？今天你最想聊的是哪一部分呢？是关于工作压力本身，还是难以拒绝他人的困扰？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    },
+    {
+      "user": "昨天领导临时要我加班做一份不属于我的报表，我明明很累，还是答应了。",
+      "reply": "\n我能感受到那种明明已经很累却还是答应了的无奈和疲惫。这种情况下，你的身体有什么反应吗？是肩膀紧绷，还是胸口发闷？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    },
+    {
+      "user": "答应之后我特别憋屈，回家又后悔，觉得自己很没用。",
+      "reply": "\n从答应加班到回家后的憋屈和后悔，这种情绪起伏一定让你很疲惫。你提到觉得自己\"没用\"，我想问问，这种\"没用\"的感觉是在保护你免受什么吗？或者说，如果你不答应加班，担心会发生什么？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    },
+    {
+      "user": "我好像一直在讨好别人，怕拒绝了别人就不喜欢我了。",
+      "reply": "\n我听到了你的担忧，害怕拒绝别人会导致对方不喜欢你。这种讨好他人的模式，是在保护你避免什么样的感受或结果呢？如果拒绝了那个加班请求，最让你担心发生的事情是什么？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    },
+    {
+      "user": "如果我不答应，他们会觉得我不好相处吧。",
+      "reply": "\n我明白了，你担心拒绝会让别人觉得你\"不好相处\"。这种担心背后，似乎是在寻求一种被接纳和认可的感觉。如果有人因为你拒绝加班而认为你不好相处，这可能意味着什么对你来说特别重要？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    },
+    {
+      "user": "我也知道这样下去不行，但一想到拒绝就心慌。",
+      "reply": "\n我能感受到那种想改变却又被情绪困住的感觉，知道要拒绝却伴随着心慌，这确实很矛盾。你想要的是什么？是希望找到一种既能保护自己，又不让别人觉得你\"不好相处\"的方式吗？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    },
+    {
+      "user": "我希望能学会拒绝不合理的加班，又不想把关系搞僵。",
+      "reply": "\n这是一个很平衡的愿望，既想保护自己的边界，又想维护良好的工作关系。你有没有想过，在拒绝和接受之间，其实有很多中间地带？比如：\"我现在真的很累了，明天一早可以完成，你看可以吗？\"这样的表达，既表达了你的需求，也给了对方选择的空间。你觉得这样的方式可能对你有帮助吗？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    },
+    {
+      "user": "这周我该从哪一步开始比较好？",
+      "reply": "\n我们可以从小小的尝试开始。这周，当有人请你帮忙时，试着先深呼吸，然后问自己三个问题：1)这真的是我的责任吗？2)我现在的精力足够吗？3)拒绝会带来什么最坏的结果？或许可以先从一个小请求开始练习说\"不\"，比如\"我现在手头有急事，稍后可以帮你看看\"。你觉得这个计划可行吗？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    },
+    {
+      "user": "如果我周三下班前跟领导说这周排满了，先不接这个报表，可以吗？",
+      "reply": "\n这个计划听起来很具体，也很可行。你选择了直接与领导沟通，这需要勇气。为了增加成功的机会，你可以在表达时加入一些解决方案，比如\"这周我手头有XX任务在赶进度，等完成这个后，下周一可以开始处理报表\"。这样既表达了界限，也展现了合作态度。你觉得这样表达会更容易被接受吗？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    }
+  ],
+  "summary": {
+    "summaryId": "cmwmvwqtc001aupm86aqswj5v",
+    "summary": {
+      "id": "cmwmvwqtc001aupm86aqswj5v",
+      "sessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "presenting": "你带来的是关于工作的困扰：最近工作压力特别大，我总觉得自己做得不够好，同事让我帮忙我也不好意思拒绝。",
+      "patterns": "这次还没有形成非常清晰的模式，但你已经开始注意到自己在压力下的反应。",
+      "strengths": "你愿意主动来谈这件事，而不是继续一个人扛着；你也愿意把不舒服说具体。这些本身就是资源。",
+      "goals": "你希望：能学会拒绝不合理的加班。",
+      "actionPlan": "本周选一个具体场景，做一次 5 分钟的小实验：先停三秒，写下当时对自己的第一句话，然后问自己“这句话是在保护我什么”。如果做不到，只记录当时发生了什么，不评判。",
+      "riskLevel": 0,
+      "createdAt": "2026-11-19T01:41:36.576Z"
+    },
+    "newMemories": [
+      {
+        "id": "cmwmvx0l9001cupm8pntvgmu7",
+        "category": "goal",
+        "content": "想学会拒绝不合理的加班",
+        "confidence": 1,
+        "importance": 5,
+        "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+        "status": "active",
+        "createdAt": "2026-11-19T01:41:49.245Z",
+        "updatedAt": "2026-11-19T01:41:49.245Z"
+      },
+      {
+        "id": "cmwmvx0ni001eupm8c8jide80",
+        "category": "value",
+        "content": "不想把工作关系搞僵",
+        "confidence": 1,
+        "importance": 4,
+        "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+        "status": "active",
+        "createdAt": "2026-11-19T01:41:49.326Z",
+        "updatedAt": "2026-11-19T01:41:49.326Z"
+      },
+      {
+        "id": "cmwmvwp1n0012upm8qhpzi0r5",
+        "category": "pattern",
+        "content": "担心拒绝会让别人觉得不好相处",
+        "confidence": 1,
+        "importance": 3,
+        "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+        "status": "active",
+        "createdAt": "2026-11-19T01:41:34.283Z",
+        "updatedAt": "2026-11-19T01:41:49.397Z"
+      },
+      {
+        "id": "cmwmvwi8j000oupm8usd3c48f",
+        "category": "pattern",
+        "content": "即使很累也会答应加班",
+        "confidence": 1,
+        "importance": 3,
+        "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+        "status": "active",
+        "createdAt": "2026-11-19T01:41:25.459Z",
+        "updatedAt": "2026-11-19T01:41:49.473Z"
+      },
+      {
+        "id": "cmwmvwibb000qupm8g1jj32it",
+        "category": "pattern",
+        "content": "答应后会感到憋屈和后悔",
+        "confidence": 1,
+        "importance": 3,
+        "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+        "status": "active",
+        "createdAt": "2026-11-19T01:41:25.559Z",
+        "updatedAt": "2026-11-19T01:41:49.549Z"
+      },
+      {
+        "id": "cmwmvwido000supm8cvrpf2u3",
+        "category": "pattern",
+        "content": "担心拒绝别人会导致对方不喜欢自己",
+        "confidence": 1,
+        "importance": 3,
+        "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+        "status": "active",
+        "createdAt": "2026-11-19T01:41:25.644Z",
+        "updatedAt": "2026-11-19T01:41:49.639Z"
+      },
+      {
+        "id": "cmwmvwp470014upm8q5zfyukf",
+        "category": "coping",
+        "content": "尝试通过深呼吸和问自己三个问题来练习拒绝",
+        "confidence": 1,
+        "importance": 4,
+        "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+        "status": "active",
+        "createdAt": "2026-11-19T01:41:34.375Z",
+        "updatedAt": "2026-11-19T01:41:49.714Z"
+      },
+      {
+        "id": "cmwmvwp6k0016upm8yytu8v7o",
+        "category": "progress",
+        "content": "已经意识到讨好他人模式的问题",
+        "confidence": 1,
+        "importance": 4,
+        "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+        "status": "active",
+        "createdAt": "2026-11-19T01:41:34.460Z",
+        "updatedAt": "2026-11-19T01:41:49.791Z"
+      },
+      {
+        "id": "cmwmvx12a001gupm8ftn5mwhd",
+        "category": "progress",
+        "content": "计划周三下班前跟领导说这周排满了，先不接报表",
+        "confidence": 1,
+        "importance": 5,
+        "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+        "status": "active",
+        "createdAt": "2026-11-19T01:41:49.859Z",
+        "updatedAt": "2026-11-19T01:41:49.859Z"
+      },
+      {
+        "id": "cmwmvx14e001iupm8kucn67u2",
+        "category": "relationship",
+        "content": "跟领导说这周排满了",
+        "confidence": 0.82,
+        "importance": 3,
+        "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+        "status": "active",
+        "createdAt": "2026-11-19T01:41:49.935Z",
+        "updatedAt": "2026-11-19T01:41:49.935Z"
+      }
+    ],
+    "memoryEnabled": true
+  },
+  "memories": [
+    {
+      "id": "cmwmvx12a001gupm8ftn5mwhd",
+      "category": "progress",
+      "content": "计划周三下班前跟领导说这周排满了，先不接报表",
+      "confidence": 1,
+      "importance": 5,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:49.859Z",
+      "updatedAt": "2026-11-19T01:41:49.859Z"
+    },
+    {
+      "id": "cmwmvx0l9001cupm8pntvgmu7",
+      "category": "goal",
+      "content": "想学会拒绝不合理的加班",
+      "confidence": 1,
+      "importance": 5,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:49.245Z",
+      "updatedAt": "2026-11-19T01:41:49.245Z"
+    },
+    {
+      "id": "cmwmvwp8w0018upm860om6a02",
+      "category": "goal",
+      "content": "能学会拒绝不合理的加班",
+      "confidence": 0.82,
+      "importance": 5,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:34.544Z",
+      "updatedAt": "2026-11-19T01:41:34.544Z"
+    },
+    {
+      "id": "cmwmvwowy000yupm8eomjt6ag",
+      "category": "goal",
+      "content": "希望学会拒绝不合理的加班",
+      "confidence": 0.9,
+      "importance": 5,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:34.115Z",
+      "updatedAt": "2026-11-19T01:41:34.115Z"
+    },
+    {
+      "id": "cmwmvwp6k0016upm8yytu8v7o",
+      "category": "progress",
+      "content": "已经意识到讨好他人模式的问题",
+      "confidence": 1,
+      "importance": 4,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:34.460Z",
+      "updatedAt": "2026-11-19T01:41:49.791Z"
+    },
+    {
+      "id": "cmwmvwp470014upm8q5zfyukf",
+      "category": "coping",
+      "content": "尝试通过深呼吸和问自己三个问题来练习拒绝",
+      "confidence": 1,
+      "importance": 4,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:34.375Z",
+      "updatedAt": "2026-11-19T01:41:49.714Z"
+    },
+    {
+      "id": "cmwmvx0ni001eupm8c8jide80",
+      "category": "value",
+      "content": "不想把工作关系搞僵",
+      "confidence": 1,
+      "importance": 4,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:49.326Z",
+      "updatedAt": "2026-11-19T01:41:49.326Z"
+    },
+    {
+      "id": "cmwmvwoz50010upm894xmr36z",
+      "category": "goal",
+      "content": "不想把工作关系搞僵",
+      "confidence": 0.9,
+      "importance": 4,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:34.194Z",
+      "updatedAt": "2026-11-19T01:41:34.194Z"
+    },
+    {
+      "id": "cmwmvwi67000mupm8mbx9li3s",
+      "category": "pattern",
+      "content": "不好意思拒绝同事的请求",
+      "confidence": 0.9,
+      "importance": 4,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:25.375Z",
+      "updatedAt": "2026-11-19T01:41:30.165Z"
+    },
+    {
+      "id": "cmwmvx14e001iupm8kucn67u2",
+      "category": "relationship",
+      "content": "跟领导说这周排满了",
+      "confidence": 0.82,
+      "importance": 3,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:49.935Z",
+      "updatedAt": "2026-11-19T01:41:49.935Z"
+    },
+    {
+      "id": "cmwmvwido000supm8cvrpf2u3",
+      "category": "pattern",
+      "content": "担心拒绝别人会导致对方不喜欢自己",
+      "confidence": 1,
+      "importance": 3,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:25.644Z",
+      "updatedAt": "2026-11-19T01:41:49.639Z"
+    },
+    {
+      "id": "cmwmvwibb000qupm8g1jj32it",
+      "category": "pattern",
+      "content": "答应后会感到憋屈和后悔",
+      "confidence": 1,
+      "importance": 3,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:25.559Z",
+      "updatedAt": "2026-11-19T01:41:49.549Z"
+    },
+    {
+      "id": "cmwmvwi8j000oupm8usd3c48f",
+      "category": "pattern",
+      "content": "即使很累也会答应加班",
+      "confidence": 1,
+      "importance": 3,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:25.459Z",
+      "updatedAt": "2026-11-19T01:41:49.473Z"
+    },
+    {
+      "id": "cmwmvwp1n0012upm8qhpzi0r5",
+      "category": "pattern",
+      "content": "担心拒绝会让别人觉得不好相处",
+      "confidence": 1,
+      "importance": 3,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:34.283Z",
+      "updatedAt": "2026-11-19T01:41:49.397Z"
+    },
+    {
+      "id": "cmwmvwi36000kupm8ida0xs62",
+      "category": "pattern",
+      "content": "总觉得自己做得不够好",
+      "confidence": 0.8,
+      "importance": 3,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:25.267Z",
+      "updatedAt": "2026-11-19T01:41:30.165Z"
+    },
+    {
+      "id": "cmwmvwify000uupm8bofjf9ex",
+      "category": "coping",
+      "content": "通过讨好他人来避免被不喜欢",
+      "confidence": 0.8,
+      "importance": 3,
+      "sourceSessionId": "cmwmvw5mu0002upm8nhvq421f",
+      "status": "active",
+      "createdAt": "2026-11-19T01:41:25.727Z",
+      "updatedAt": "2026-11-19T01:41:30.165Z"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "breakup_selfworth",
+  "title": "分手后的自我怀疑",
+  "sessionId": "cmwmvx19d001lupm8fdn8dr1p",
+  "elapsedMs": 8485,
+  "turns": [
+    {
+      "user": "我和男朋友分手一个月了，还是走不出来，总觉得是自己不够好。",
+      "reply": "分手一个月了，听起来你还在经历很深的痛苦，把原因归咎于自己不够好，这种自责一定让你很煎熬。今天你最想聊聊的是哪方面的困扰？是关于分手后的情绪，还是关于\"自己不够好\"这个想法？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    },
+    {
+      "user": "他最后说跟我在一起很累，我一直在想是不是我太敏感了。",
+      "reply": "\n\"他跟你在一起很累\"这句话让你开始怀疑自己是不是太敏感了，这种自我质疑一定让你很不安。当你听到\"很累\"这个评价时，你内心最深的感受是什么？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    },
+    {
+      "user": "我朋友都劝我别想了，可我就是控制不住。",
+      "reply": "\n朋友劝你别想，但你控制不住自己，这种矛盾感一定很困扰。当你在想这件事时，如果那个\"控制不住的自己\"能说话，它想帮你达到什么目的呢？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    },
+    {
+      "user": "我好像把所有的价值都放在他喜不喜欢我上面。",
+      "reply": "\n把所有价值放在他喜不喜欢你上面，这听起来像是一个很沉重的负担。当你把价值寄托在他人评价上时，这种模式可能在保护你什么？或者说，它曾经帮你解决了什么问题？",
+      "riskLevel": 0,
+      "riskType": "none",
+      "events": [
+        "meta",
+        "delta",
+        "state",
+        "done"
+      ]
+    }
+  ],
+  "summary": null,
+  "memories": null
+}
