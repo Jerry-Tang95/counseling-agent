@@ -709,6 +709,7 @@ pnpm test:evals   # Prompt/对话评估
 
 - 分支：`feat/...`、`fix/...`、`safety/...`、`docs/...`
 - 提交信息：`feat: ...` / `fix: ...` / `safety: ...` / `docs: ...`
+- **每次完成改动或更新后必须立即 `git add` + `git commit`，不要在工作区留下未提交的改动。**
 - 不提交 `.env.local`、密钥、真实用户对话、数据库文件。
 - 改动 `agents.md` 要写变更记录。
 
