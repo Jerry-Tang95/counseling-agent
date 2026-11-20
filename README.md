@@ -1,5 +1,17 @@
 # 心屿 · 心理咨询 Agent
 
+<p>
+  <a href="https://github.com/Jerry-Tang95/counseling-agent/stargazers"><img src="https://img.shields.io/github/stars/Jerry-Tang95/counseling-agent?style=flat-square&logo=github&label=Stars" alt="GitHub Stars"></a>
+  <img src="https://img.shields.io/badge/status-MVP-blue?style=flat-square" alt="Status: MVP">
+  <img src="https://img.shields.io/badge/Next.js-15.5.29-black?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js 15.5.29">
+  <img src="https://img.shields.io/badge/React-19.3.1-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19.3.1">
+  <img src="https://img.shields.io/badge/TypeScript-5.9.3-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript 5.9.3">
+  <img src="https://img.shields.io/badge/Prisma-6.19.3-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma 6.19.3">
+  <img src="https://img.shields.io/badge/SQLite-3-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.4.19-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS 3.4.19">
+  <img src="https://img.shields.io/badge/tests-61%20passed-2EA44F?style=flat-square" alt="61 tests passed">
+</p>
+
 > 一个把心理学对话做得更真实、更有出路的 AI 心理自助工具。
 
 心屿以 **阿德勒心理学** 为骨架，整合人本主义、CBT、DBT、REBT 与存在主义视角。它不是要给你一个标准答案，而是陪你：
